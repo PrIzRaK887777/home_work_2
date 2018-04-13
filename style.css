@@ -1,0 +1,43 @@
+div.search_container {
+  position: relative;
+}
+div > i.fa.fa-search {
+
+}
+div > input {
+  padding: 5px 5px 5px 25px;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+div > div.container_sign {
+  width: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.search_container > button.search {
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background: #2828bf;
+  color: white;
+}
+button.fa.fa-paper-plane {
+  border: none;
+  background: none;
+  position: absolute;
+}
+div > div.container_sign2 {
+  width: 25px;
+  position: absolute;
+  left: 170px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
